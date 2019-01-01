@@ -20,12 +20,19 @@ All of the code is organized into folders. For example, Chapter02.
 The code will look like the following:
 
 import sys
+
 import pandas as pd
+
 import sklearn
+
 import keras
+
 print 'Python: {}'.format(sys.version)
+
 print 'Pandas: {}'.format(pd.__version__)
+
 print 'Sklearn: {}'.format(sklearn.__version__)
+
 print 'Keras: {}'.format(keras.__version__)
 
 
